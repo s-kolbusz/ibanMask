@@ -1,4 +1,4 @@
-function ibanMask(iban) {
+export default function ibanMask(iban) {
   return iban
     .replace(/\s\s+/g, " ")
     .replace(/[^0-9A-z]/g, "")
