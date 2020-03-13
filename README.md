@@ -3,7 +3,7 @@ Simple IBAN input mask in regex
 
 ### Usage
 
-```
+```javascript
 import ibanMask from './ibanMask.js'
 
 const ibanField = document.getElementById('iban');
@@ -13,6 +13,6 @@ ibanField.onkeydown = function(e) {
 }
 ```
 
-```
+```html
 <input type="text" id="iban" />
 ```
